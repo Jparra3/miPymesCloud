@@ -1,16 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
 body{
   background: #F1F2F7;
+  font-family: 'Open Sans',sans-serif;
+  
   header{
     nav{
+      font-size: 1.1em;
       ul{
         list-style: none;
+        padding: 0px;
         li{
+          width-left: 100px;
+          padding: 0px;
+          display: block;
           a{
             display: block;
             color: #A9ADB7;
             text-decoration: none;
-            padding: 20px 60px 10px 10px;
+            padding: 15px 15px;
             span{
+              font-size: 1.3em;
+              margin-left: 15px;
               margin-right: 10px;
             }      
           }
